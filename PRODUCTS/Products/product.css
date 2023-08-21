@@ -813,6 +813,8 @@ body {
   .toggle-header span {
     font-size: 2rem;
     font-weight: 800;
+    cursor: pointer;
+
   }
   .toggle-header span::before {
     content: "";
@@ -1068,6 +1070,8 @@ body {
   .toggle-header span {
     font-size: 2rem;
     font-weight: 800;
+    cursor: pointer;
+
   }
   .toggle-header span::before {
     content: "";
