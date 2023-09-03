@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="light.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,100;1,300;1,600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Image/bootstrap-5.3.1/bootstrap-5.3.1/dist/css/bootstrap.min.css">
     <title>BIS.NET</title>
 </head>
 
@@ -97,18 +99,19 @@
             </li>
         </ul>
     </div>
+    <!-- header -->
     <header>
         <div class="top-header">
             <div class="container">
                 <div class="wrap-in-header">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-12 col-lg-6 col-md-6 d-sm-grid">
                             <div class="left-top-header">
                                 <div class="telephone-header">84-909 988 041</div>
                                 <div class="messenger-header">sales@bisvn.net</div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-12 col-lg-6 col-md-6 d-flex justify-content-lg-end justify-content-md-end">
                             <div class="right-top-header">
                                 <ul class="right-icon">
                                     <li class="icon-logo--USA">
@@ -128,14 +131,14 @@
                 </div>
                 <div class="header-content">
                     <div class="row">
-                        <div class="col-md-2">
-                            <div class="img-header">
+                        <div class="col-lg-2">
+                            <div class="img-header" style="width: 16rem;">
                                 <a href="">
                                     <img src="./imgLight/logo.png" class="img" title="logo" alt="logo">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-lg-10">
                             <div class="product-header">
                                 <ul class="product-list">
                                     <li class="product-header">
@@ -154,12 +157,12 @@
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <!-- thêm position -->
-                                        <article class="product-position">
-                                            <ul class="product-list-position">
+                                        <article class="product-position ps-0">
+                                            <ul class="product-list-position p-0">
                                                 <li class="product-item-position">
                                                     <a href="/PRODUCTS/General-Industry'/General.html"
                                                         class="product-link-position">GENERAL INDUSTRY
-                                                        <ul class="product-device">
+                                                        <ul class="product-device p-0">
                                                             <li class="product-item-device">
                                                                 <a href="/PRODUCTS/General-Industry'/Equiment/Equiment.html"
                                                                     class="product-link-device">EQUIMENT</a>
@@ -174,7 +177,7 @@
                                                 <li class="product-item-position">
                                                     <a class="product-link-position"
                                                         href="/PRODUCTS/Textile/Textile.html">TEXTILE & GARMENT
-                                                        <ul class="product-garment">
+                                                        <ul class="product-garment p-0">
                                                             <li class="product-item-device">
                                                                 <a class="product-link-device"
                                                                     href="/PRODUCTS/Textile/LightBooths/Light.html">LIGHT
@@ -262,6 +265,7 @@
             </div>
         </div>
     </header>
+    <!-- content -->
     <div class="content">
         <!-- content + header-title -->
         <div class="header-title">
@@ -278,7 +282,7 @@
             <div class="container">
                 <div class="content-slider">
                     <div class="row">
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-md-4 col-lg-3 col-sm-6">
                             <div class="product-menu">
                                 <p class="product-categories">Product categories</p>
                                 <ul class="product-outstanding">
@@ -574,7 +578,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-8 col-sm-6">
+                        <div class="col-md-8 col-lg-9 col-sm-6">
                             <div class="title-product-Right">
                                 <h3>> LIGHT</h3>
                                 <form action="">
@@ -590,200 +594,140 @@
                             <div class="col-Product-Right">
                                 <div class="ul-col-right">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4 col-md-6 col-xs-1">
-                                            <div class="product-detailed">
-                                                <a href="">
-                                                    <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
-                                                        alt="">
-                                                </a>
-                                                <div class="product-title-detailed">
-                                                    <a href="">
-                                                        <p>UV Curing Equipment for Printing UVC-201A</p>
-                                                    </a>
-                                                    <a href="/PRODUCTS/Products/product.html">
-                                                        <button class="btn btn-danger">Detailed</button>
-                                                    </a>
+                                        <div class="col-lg-4 col-12 col-md-6">
+                                            <div class="card">
+                                                <img src="./imgLight/thiet-bi-chieu-xa-UV-UVC-201A-C-sun-800x600-768x480.gif"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body text-center">
+                                                    <p class="card-text">UV Curing Equipment for Printing UVC-201A.
+                                                    </p>
+                                                    <a href="/PRODUCTS/Products/KAO/kao.html" class="btn btn-danger p-3">Detailed</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="product-number">
+                                    <div class="product-number mt-5">
                                         <ul>
                                             <li>
                                                 <span>1</span>
@@ -800,133 +744,118 @@
             </div>
         </div>
     </div>
-    <div class="customer-service">
-        <div class="customer-top">
-            <div class="col-md-6">
-                <img class="img-customer" src="./imgLight/img10.jpg" alt="">
-            </div>
-            <div class="col-md-6">
-                <div class="customer-red">
-                    <div class="line-translating">
-                        <i class="line-service line"></i>
-                        <p>services</p>
-                    </div>
-                    <h1 class="customer-heading">HOW WE HELP OUR CLIENTS WORK WITH OUR PRODUCTS</h1>
-                    <p class="customer-expert">In addition to selling testing instruments and consumables, we offer a
-                        range of services to support clients in the field of textile testing. Our skilled team of
-                        textile testing experts has the necessary experience and knowledge to provide invaluable
-                        training and support, and we have a team of service engineers who will undertake service and
-                        calibration support.</p>
-                    <button class="btn btn-danger"><a href="/SERVICES/services.html">MORE INFO</a></button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
+    <div class="customer-service bg-dark bg-gradient">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="logo">
-                        <a href="">
-                            <img class="logo-img" src="./imgLight/logo-footer.png" alt="">
-                        </a>
-                        <p>Nhà cung cấp chuyên nghiệp các thiết bị phụ trợ ngành Dệt May và giải phóng công
-                            nghiệp khác
-                        </p>
-                        <div class="logo-link">
-                            <a class="link-facebook" href="">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a class="link-twitter" href="">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a class="link-google" href="">
-                                <i class="fab fa-google-plus"></i>
-                            </a>
+            <div class="col-md-12 d-flex align-content-center align-items-baseline">
+                <div class="line-introduce bg-white"></div>
+                <p class="ms-2 fw-bold font-weight-900 has-huge-font-size fs-3 text-white">Product</p>
+            </div>
+            <div class="row pb-md-5">
+                <div class="col-12 col-lg-6 col-md-12">
+                    <img class="img-thumbnail rounded" src="/PRODUCTS/Products/imgProduct/img10.jpg" alt="">
+                </div>
+                <div class="col-12 col-lg-6 col-md-12  bg-danger rounded">
+                    <div class="customer-red pb-md-4 p-md-4">
+                        <div class="line-translating d-flex align-content-center align-items-baseline">
+                            <div class="line-introduce bg-white"></div>
+                            <p class="ms-2 fw-bold font-weight-900 has-huge-font-size fs-3 text-white">Service</p>
                         </div>
+                        <h1 class="customer-heading text-white">HOW WE HELP OUR CLIENTS WORK WITH OUR PRODUCTS</h1>
+                        <p class="customer-expert text-white font-weight-bold" text>In addition to selling testing
+                            instruments and consumables, we
+                            offer a
+                            range of services to support clients in the field of textile testing. Our skilled team
+                            of
+                            textile testing experts has the necessary experience and knowledge to provide invaluable
+                            training and support, and we have a team of service engineers who will undertake service
+                            and
+                            calibration support.</p>
+                        <button class="btn btn-info p-3"><a href="/SERVICES/services.html"
+                                class="text-white text-decoration-none  ">MORE INFO</a></button>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <ul class="footer-list">
-                        <div class="line-introduce">
-                            <p class="footer-title">BIS</p>
-                        </div>
-                        <li class="footer-item">
-                            <a class="footer-link" href="/index.html">HOME</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="/ABOUT US/about.html">ABOUT US</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="/PRODUCTS/Products/product.html">PRODUCTS</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="/SERVICES/services.html">SERVICES</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="/NEWS/new.html">NEWS</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="/CONTACT US/contact.html">CONTACT US</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <ul class="footer-list">
-                        <div class="line-introduce">
-                            <p class="footer-title">Products</p>
-                        </div>
-                        <li class="footer-item">
-                            <a class="footer-link" href="/PRODUCTS/General-Industry'/General.html">GENENAL INDUSTRY</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="/PRODUCTS/Textile/Textile.html">TEXTILE & GARMENT</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <ul class="footer-list">
-                        <div class="line-introduce">
-                            <p class="footer-title">CONTACT INFO</p>
-
-                        </div>
-                        <li class="footer-item">
-                            <a class="footer-link" href="">BIS Trading Service Co., Ltd.</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="">216 Dong Hung Thuan 2 Str., Quarter 4,</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="">Dong Hung Thuan W., Dist.12, HCMC</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="">Email: sales@bisvn.net</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="">Tel: +84-28 3516 2613</a>
-                        </li>
-                        <li class="footer-item">
-                            <a class="footer-link" href="">Hotline: +84-913 476 379 (Mr. Hoàng)
-                                +84-909 988 041 (Ms. Duyên)</a>
-                        </li>
-                    </ul>
-
                 </div>
             </div>
         </div>
     </div>
-    <div class="coppy-right">
-        <p class="coppy-text">
-            <a href="" class="coppy-link">BIS</a>
-            © 2016 All Rights Reserved .
-        </p>
-    </div>
+    <!-- footer -->
+    <footer class="">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 about-footer">
+                        <a href="">
+                            <img class="logo-img ms-5" src="./imgLight/logo-footer.png" alt="">
+                        </a>
+                        <ul>
+                            <li><a href="tel:(010) 1234 4321"><i class="fas fa-phone fa-flip-horizontal"></i>+84-913 476
+                                    379 (Mr. Hoàng)</a></li>
+                            <li><a href="tel:(010) 1234 4321"><i class="fas fa-phone fa-flip-horizontal"></i> +84-909
+                                    988 041 (Ms. Duyên)</a></li>
+                            <li><i class="fas fa-map-marker-alt"></i>
+                                Professional supplier of equipment supporting Textile & Garment industry and other
+                                industry
+                                solutions.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-2 page-more-info">
+                        <div class="footer-title">
+                            <h4>BIS</h4>
+                        </div>
+                        <ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/ABOUT US/about.html">About Us</a></li>
+                            <li><a href="/PRODUCTS/Products/product.html">Products</a></li>
+                            <li><a href="/SERVICES/services.html">Services</a></li>
+                            <li><a href="/NEWS/new.html">News</a></li>
+                            <li><a href="/CONTACT US/contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 page-more-info">
+                        <div class="footer-title">
+                            <h4>PRODUCTS</h4>
+                        </div>
+                        <ul>
+                            <li><a href="/PRODUCTS/General-Industry'/General.html">GENERAL INDUSTRY</a></li>
+                            <li><a href="/PRODUCTS/Textile/Textile.html">TEXTILE & GARMENT</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-4 page-more-info">
+                        <div class="footer-title">
+                            <h4>CONTACT INFO</h4>
+                            <ul class="footer-social">
+                                <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-google-plus"></i></a></li>
+
+                            </ul>
+                        </div>
+                        <ul>
+                            <li><a href="#">BIS Trading Service Co., Ltd.</a></li>
+                            <li><a href="#">216 Dong Hung Thuan 2 Str., Quarter 4,</a></li>
+                            <li><a href="#">Dong Hung Thuan W., Dist.12, HCMC</a></li>
+                            <li><a href="#">Email: sales@bisvn.net</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-sm-7 col-10">
+                        <p><a href="" class="text-danger text-decoration-none">BIS</a> © 2016 All Rights Reserved .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="light.js"></script>
     <script src="module"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/Image/bootstrap-5.3.1/bootstrap-5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./slick.slider/Light.js"></script>
 </body>
 
